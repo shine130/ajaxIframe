@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shineAjaxIframe</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wp ctnbox">
+	<ul class="nvlist" id="menu">
+		<li><a href="link1.html">link1</a></li>
+		<li><a href="link2.html">link2</a></li>
+		<li><a href="link3.html">link3</a></li>
+		<li><a href="link4.html">link4</a></li>
+		<li><a href="link5.html">link5</a></li>
+		<li><a href="link6.html">不存在页面时</a></li>
+	</ul>
+	<div class="iframebox" id="ajaxHtml">
+		
+	</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/ajaxHtml.js"></script>
+<script>
+	$(function(){
+		$("#menu").ajaxHtml();
+	});
+</script>
+</body>
+</html>

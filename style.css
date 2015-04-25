@@ -1,0 +1,7 @@
+ul,li{list-style: none; margin: 0; padding: 0;}
+.wp{width: 960px; margin: 0 auto;}
+.nvlist{float: left; display: inline; width: 200px; border: 1px solid #ccc;}
+.nvlist a{color: #000; text-decoration: none; font-size: 18px; display: block; border-bottom: 1px solid #ccc; padding: 8px 0; text-align: center; text-transform: uppercase;}
+.nvlist a:hover,.nvlist a.hover{color: red;}
+.iframebox{float:right; display: inline; width: 730px; min-height: 500px; _height: 500px; border: 1px solid #ccc;}
+#page{padding:8px 20px;}
